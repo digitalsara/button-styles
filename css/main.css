@@ -23,8 +23,16 @@ div {
   text-decoration: none;
 }
 
+.btn:hover {
+  background-color: #000;
+}
+
 .btn-subtle {
   background-color: #ccc;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
 }
 
 .btn-ghost{
@@ -33,8 +41,17 @@ div {
   border: 3px solid #666;
 }
 
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+}
+
 .btn-warning {
   background-color: #f33;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
 
 .btn-small {
