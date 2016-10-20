@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  background-color: #ccc;
 }
 
 *, *::before, *::after {
@@ -10,4 +11,10 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+}
+
+.btn {
+  color: #fff;
+  display: block;
+  text-decoration: none;
 }
