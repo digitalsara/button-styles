@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
-  background-color: #ccc;
 }
 
 *, *::before, *::after {
@@ -14,7 +13,24 @@ div {
 }
 
 .btn {
+  background-color: #333;
+  border-radius: 8px;
+  border-width: 3px;
   color: #fff;
   display: block;
+  padding: .4em .75em .3em;
   text-decoration: none;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+}
+
+.btn-ghost{
+  color: #666;
+  background-color: #fff;
+}
+
+.btn-warning {
+  background-color: #f33;
 }
