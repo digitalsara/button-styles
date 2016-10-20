@@ -16,11 +16,12 @@ div {
   background-color: #333;
   border-radius: 8px;
   color: #fff;
-  display: block;
+  display: inline-block;
   font-size: 1.125rem;
-  margin: 1rem;
+  margin: .7rem 2rem;
   padding: .4em .75em .3em;
   text-decoration: none;
+  text-align: center;
 }
 
 .btn:hover {
@@ -35,10 +36,9 @@ div {
   background-color: #666;
 }
 
-.btn-ghost{
+.btn-ghost {
   color: #666;
   background-color: #fff;
-  border: 3px solid #666;
 }
 
 .btn-ghost:hover {
