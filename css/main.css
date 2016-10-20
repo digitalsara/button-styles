@@ -15,9 +15,10 @@ div {
 .btn {
   background-color: #333;
   border-radius: 8px;
-  border-width: 3px;
   color: #fff;
   display: block;
+  font-size: 1.125rem;
+  margin: 1rem;
   padding: .4em .75em .3em;
   text-decoration: none;
 }
@@ -29,8 +30,13 @@ div {
 .btn-ghost{
   color: #666;
   background-color: #fff;
+  border: 3px solid #666;
 }
 
 .btn-warning {
   background-color: #f33;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
