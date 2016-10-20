@@ -8,7 +8,7 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: .4rem;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ div {
   color: #fff;
   display: inline-block;
   font-size: 1.125rem;
-  margin: .7rem 2rem;
+  margin: .3rem;
   padding: .4em .75em .3em;
   text-decoration: none;
   text-align: center;
@@ -44,6 +44,10 @@ div {
 .btn-ghost:hover {
   background-color: #666;
   color: #fff;
+}
+
+.btn-out {
+  border: 3px solid #333;
 }
 
 .btn-warning {
